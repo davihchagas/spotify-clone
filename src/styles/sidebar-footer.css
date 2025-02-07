@@ -1,0 +1,148 @@
+body {
+  background-color: var(--main-color);
+  font-family: var(--font-dm-sans);
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  padding: 12px;
+  width: 300px;
+}
+
+.sidebar .navigation {
+  background-color: var(--second-color);
+  border-radius: 8px;
+  padding: 16px 0 0 16px;
+}
+
+.navigation__logo {
+  background: var(--second-color);
+  display: flex;
+  border-radius: 8px;
+  padding: 16px 0 0 16px;
+}
+
+.logo__img {
+  width: 80px;
+}
+
+.navigation__list {
+  margin-top: 20px;
+  padding: 0 20px 10px 20px;
+}
+
+.list__item {
+  padding: 10px 0;
+}
+
+.list__link {
+  color: var(--main-text-color);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.library {
+  background-color: var(--second-color);
+  border-radius: 8px;
+  padding: 16px;
+  margin-top: 10px;
+}
+
+.library__title {
+  color: var(--main-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  padding: 16px;
+  display: flex;
+}
+
+.library__simbol {
+  margin-left: auto;
+}
+
+.create-playlist {
+  background-color: var(--third-color);
+  color: var(--main-text-color);
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.create-playlist__title {
+  font-weight: 600;
+  padding: 0 0 10px 0;
+}
+
+.create-playlist__button {
+  background-color: var(--main-text-color);
+  color: var(--main-color);
+  border: none;
+  border-radius: 20px;
+  padding: 8px 10px;
+  margin-top: 20px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+}
+
+.cookies {
+  color: var(--main-text-color);
+  font-size: 10px;
+  padding: 16px 0;
+  display: block;
+  margin-right: auto;
+  width: fit-content;
+}
+
+.cookies:hover {
+  text-decoration: underline;
+}
+
+.language-button {
+  display: flex;
+  justify-content: center;
+  background-color: var(--main-color);
+  border: var(--main-text-color) 1px solid;
+  border-radius: 20px;
+  color: var(--main-text-color);
+  padding: 8px 9px;
+  font-weight: 600;
+}
+
+.footer {
+  background: linear-gradient(to right, #003d55, #9FC131);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 20px 0;
+  align-items: center;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.footer__description {
+  color: var(--main-text-color);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.footer__title {
+  padding: 0 0 10px 0;
+}
+
+.footer__button {
+  background-color: var(--main-text-color);
+  color: var(--main-color);
+  border: none;
+  border-radius: 20px;
+  padding: 13px 15px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+}

@@ -34,4 +34,4 @@ This project is a **clone of the Spotify homepage**, built with **HTML, CSS, and
 Implement a functional music player
 Integrate with the official Spotify API
 Improve responsiveness and accessibility
-Contributions are welcome! ✨
+Contributions are welcome! 
